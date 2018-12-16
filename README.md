@@ -8,3 +8,5 @@ You may also have to also disable live malware protection in windows 10 in defen
 Nuke.exe 64bit Download: https://drive.google.com/open?id=1leaVq-eItxp6VQn49Y-9ZieSBns-lHra
 
 Box.exe 64bit Download: https://drive.google.com/open?id=16x7Nxojqzps6O4OSdjE026zff4HnD6wQ
+
+DISCLAIMER: For educational purposes only. I am not responsible for anything you do.
