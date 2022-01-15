@@ -5,7 +5,7 @@
 MODULE_AUTHOR("Julius Victorian and R");
 MODULE_LICENSE("GPL");
 MODULE_VERSION("0.01");
-MODULE_DESCRIPTION("fingerprint driver");
+MODULE_DESCRIPTION("fingerprint driver for dell xfr 6420fingerprint reader");
 
 static int finger_print_init(void)
 {
