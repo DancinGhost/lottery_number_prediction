@@ -155,10 +155,9 @@ static struct usb_driver BCM5880_finger_driver = {
 };
 
 MODULE_LICENSE("GPL");
-MODULE_VERSION("0.01");
+MODULE_VERSION("0.10");
 MODULE_DESCRIPTION("fingerprint driver");
 MODULE_AUTHOR("Julius");
-MODULE_SUPPORTED_DEVICE("usb:fingerprint_reader");
 
 module_init(finger_print_init);
 module_exit(finger_print_exit);
